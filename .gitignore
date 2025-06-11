@@ -1,0 +1,54 @@
+# Ignore virtual environment
+.venv/
+venv/
+
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore Jupyter/IPython files (if any)
+.ipynb_checkpoints/
+
+# Ignore Streamlit cache and logs
+.streamlit/
+.cache/
+
+# Ignore environment files and secrets
+.env
+*.env
+.env.*
+
+# Ignore model artifacts
+*.h5
+*.pkl
+*.joblib
+*.sav
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore output/plots
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+
+# Ignore temporary files
+*.bak
+*.tmp
+*.swp
+~$*
+
+# Ignore VSCode and PyCharm configs
+.vscode/
+.idea/
+
+# Ignore OS-specific files
+ehthumbs.db
+desktop.ini
